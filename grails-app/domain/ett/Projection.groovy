@@ -1,5 +1,4 @@
-package edu.mario.mg
-
+package ett
 class Projection {
     int code
     Movie movie

@@ -1,5 +1,4 @@
-package edu.mario.mg
-
+package ett
 class Ticket {
 
     int code

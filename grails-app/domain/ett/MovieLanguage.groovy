@@ -1,4 +1,4 @@
-package edu.mario.mg
+package ett
 
 class MovieLanguage {
     Movie movie

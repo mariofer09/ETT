@@ -1,6 +1,6 @@
-package edu.mario.mg
+package ett
 
-import edu.mario.mg.security.UserS
+
 
 import java.text.DecimalFormat
 
@@ -9,7 +9,6 @@ class Invoice {
 
     int code
     Date date
-    UserS user
     DecimalFormat total
 
     static constraints = {

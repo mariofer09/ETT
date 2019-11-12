@@ -1,17 +1,16 @@
-package edu.mario.mg
+package ett
 
-import edu.mario.mg.utils.Constants
 
 import java.time.LocalDateTime
 
-class Room {
+class Movie {
 
     int code
-    int num_column
-    int num_row
-    
-
-
+    String name
+    String gender
+    String clasification
+    String imagen
+    String descripcion
 
     boolean enabled = true
     String createdBy = Constants.SYSTEM
@@ -20,9 +19,8 @@ class Room {
     LocalDateTime updated
 
     static constraints = {
-        table "rooms"
+        table "movies"
 
         description sqlType: "text"
     }
-
 }
